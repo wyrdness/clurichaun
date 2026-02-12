@@ -1,0 +1,352 @@
+{
+  "category": "FAE_FOLKLORE",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/clurichaun",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "clurichaun",
+    "name": "Clurichaun",
+    "aliases": [
+      {
+        "name": "Clúrachán",
+        "language": "Irish Gaelic",
+        "meaning": "Original Irish term"
+      },
+      {
+        "name": "Clobhair-ceann",
+        "language": "Irish",
+        "meaning": "Possible etymology"
+      },
+      {
+        "name": "Naggeneen",
+        "region": "Some Irish regions",
+        "meaning": "Regional variant name"
+      }
+    ],
+    "category": "FAE_FOLKLORE",
+    "subcategory": "Irish Fairy",
+    "tags": [
+      "irish-folklore",
+      "solitary-fairy",
+      "wine-cellar",
+      "drinking",
+      "mischievous",
+      "household-spirit",
+      "leprechaun-relative",
+      "night-fairy"
+    ],
+    "status": "traditional_folklore",
+    "description": {
+      "summary": "Fairy cousin of the leprechaun from Irish folklore, associated with wine cellars and drinking, known for carousing and mischief.",
+      "full": "The clurichaun is a fairy from Irish folklore, closely related to the leprechaun and sometimes considered its nighttime form. Small in stature and dressed in red or green, the clurichaun is always drunk and associated with wine cellars and drinking. Unlike the industrious leprechaun cobbler, the clurichaun haunts wine cellars, drinks copious amounts of wine, rides sheep and dogs at night, and causes mischief. Some traditions say the clurichaun is the same fairy as the leprechaun, but in drinking mode at night. Clurichauns can attach themselves to households, protecting the wine cellar if treated well, but spoiling wine and causing chaos if angered. They have a worse temper than leprechauns, especially when drunk, and are known for overturning furniture and general mayhem."
+    },
+    "etymology": {
+      "origin": "Possibly from Irish 'clúrachán', etymology uncertain",
+      "meaning": "Uncertain, possibly related to drinking or carousing",
+      "first_use": "Irish folklore, documented in folklore collections"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "FAE_FOLKLORE",
+      "type": "Irish Fairy",
+      "subtype": "Solitary Fairy / Household Spirit",
+      "variant": "Irish"
+    },
+    "related_phenomena": [
+      {
+        "id": "leprechaun",
+        "name": "Leprechaun",
+        "relationship": "cousin",
+        "description": "Related fairy, some say clurichaun is nighttime form of leprechaun"
+      },
+      {
+        "id": "brownie",
+        "name": "Brownie",
+        "relationship": "similar",
+        "description": "Household spirit with similar protective role (but more helpful)"
+      },
+      {
+        "id": "fairies",
+        "name": "Irish Fairies",
+        "relationship": "parent_category",
+        "description": "Broader category of Irish fairy folk"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "min": 0.6,
+        "max": 0.9,
+        "unit": "meters",
+        "notes": "Small, similar size to leprechaun"
+      },
+      "coloration": [
+        "Red clothing (traditional)",
+        "Green clothing (some traditions)"
+      ],
+      "features": [
+        {
+          "feature": "Small size",
+          "description": "Similar to leprechaun, small fairy",
+          "frequency": "always"
+        },
+        {
+          "feature": "Always drunk",
+          "description": "Perpetually intoxicated appearance",
+          "frequency": "always"
+        },
+        {
+          "feature": "Red face",
+          "description": "Flushed from drinking",
+          "frequency": "common"
+        },
+        {
+          "feature": "Disheveled",
+          "description": "Messy, unkempt appearance",
+          "frequency": "common"
+        }
+      ],
+      "morphology": "Small humanoid fairy, perpetually drunk, disheveled appearance"
+    },
+    "abilities": [
+      {
+        "ability": "Wine cellar haunting",
+        "description": "Inhabits and guards wine cellars",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Riding animals",
+        "description": "Rides sheep, dogs, or other animals at night",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Wine spoiling",
+        "description": "Can spoil wine if angered",
+        "frequency": "when angered",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Mischief making",
+        "description": "Overturns furniture, causes household chaos",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Cellar protection",
+        "description": "Protects wine cellar if treated respectfully",
+        "frequency": "if respected",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "carousing and mischievous",
+      "social_structure": "solitary",
+      "patterns": [
+        "Drinks wine in cellars at night",
+        "Rides animals (sheep, dogs) during nighttime",
+        "Causes mischief when drunk",
+        "Protects household cellar if treated well",
+        "Spoils wine and causes chaos if angered",
+        "Worse temper than leprechaun"
+      ]
+    }
+  },
+
+  "relationship_to_leprechaun": {
+    "theories": [
+      {
+        "theory": "Nighttime form",
+        "description": "Some believe clurichaun is the leprechaun at night, after work, drinking and carousing",
+        "support": "Similar appearance, both solitary fairies, both Irish tradition"
+      },
+      {
+        "theory": "Separate but related",
+        "description": "Others believe clurichaun is a separate fairy species, cousin to leprechaun",
+        "support": "Different behaviors, different roles, different temperaments"
+      }
+    ],
+    "similarities": [
+      "Both small Irish fairies",
+      "Both solitary (not trooping fairies)",
+      "Both can attach to households",
+      "Both tricksters",
+      "Similar size and general appearance"
+    ],
+    "differences": [
+      {
+        "aspect": "Occupation",
+        "leprechaun": "Cobbler, works",
+        "clurichaun": "Drinks, no work"
+      },
+      {
+        "aspect": "Temperament",
+        "leprechaun": "Cunning, industrious",
+        "clurichaun": "Drunk, carousing"
+      },
+      {
+        "aspect": "Activity",
+        "leprechaun": "Making shoes, guarding treasure",
+        "clurichaun": "Drinking wine, riding animals"
+      },
+      {
+        "aspect": "Time",
+        "leprechaun": "Day work",
+        "clurichaun": "Night carousing"
+      },
+      {
+        "aspect": "Temper",
+        "leprechaun": "Mischievous",
+        "clurichaun": "Worse temper, especially when drunk"
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Irish fairy lore",
+        "Wine cellar folklore",
+        "Household spirit traditions",
+        "Solitary fairy beliefs"
+      ],
+      "beliefs": [
+        "Clurichauns haunt wine cellars",
+        "Always drunk on wine or poitín",
+        "Ride sheep and dogs at night",
+        "Protect cellar if respected",
+        "Spoil wine if angered or disrespected",
+        "More temperamental than leprechauns",
+        "Can be helpful to household (wine cellar protection)",
+        "May be nighttime form of leprechaun"
+      ],
+      "household_interaction": {
+        "if_respected": [
+          "Protects wine cellar from theft",
+          "Guards wine quality",
+          "Brings good fortune to wine stores",
+          "Relatively peaceful coexistence"
+        ],
+        "if_angered": [
+          "Spoils all wine in cellar",
+          "Overturns furniture",
+          "Causes general household chaos",
+          "Rides animals wildly",
+          "Worse mischief than typical fairy"
+        ],
+        "how_to_respect": [
+          "Leave offerings (wine, food)",
+          "Maintain clean cellar",
+          "Don't insult or mock",
+          "Tolerate reasonable drinking",
+          "Don't try to trap or catch"
+        ]
+      }
+    },
+    "less_famous_than_leprechaun": {
+      "reason": "Leprechaun is commercialized and famous; clurichaun remains obscure",
+      "awareness": "Known mainly to those familiar with Irish folklore",
+      "preservation": "Authentic folklore tradition without commercial distortion"
+    },
+    "popular_culture": {
+      "literature": [
+        "Traditional Irish folklore collections",
+        "Some modern fantasy literature"
+      ],
+      "film_tv": [
+        "Occasionally appears in fantasy media",
+        "Less commercialized than leprechaun"
+      ],
+      "impact": "Remains relatively obscure compared to leprechaun"
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Irish folklore tradition",
+      "continents": ["Europe"],
+      "countries": ["Ireland"],
+      "regions": [
+        "Throughout Ireland",
+        "Particularly associated with households with wine cellars"
+      ]
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Irish fairy folklore, household spirit traditions",
+      "earliest_accounts": "Irish folklore, documented in 19th century collections",
+      "folklore_connections": "Related to leprechaun and household spirit traditions"
+    },
+    "timeline": [
+      {
+        "date": "Traditional period",
+        "event": "Clurichaun folklore active",
+        "significance": "Part of living Irish fairy tradition",
+        "source": "Oral tradition"
+      },
+      {
+        "date": "19th century",
+        "event": "Folklore documentation",
+        "significance": "Folklorists record clurichaun traditions",
+        "source": "Irish folklore collections"
+      },
+      {
+        "date": "Modern era",
+        "event": "Remains obscure",
+        "significance": "Unlike leprechaun, not commercialized",
+        "source": "Folklore scholarship"
+      }
+    ]
+  },
+
+  "sources": [
+    {
+      "id": "briggs-1976",
+      "type": "book",
+      "title": "A Dictionary of Fairies",
+      "authors": ["Katharine Briggs"],
+      "publication": "Penguin Books",
+      "date": "1976"
+    },
+    {
+      "id": "yeats-1888",
+      "type": "book",
+      "title": "Fairy and Folk Tales of the Irish Peasantry",
+      "authors": ["W.B. Yeats"],
+      "publication": "Walter Scott",
+      "date": "1888"
+    },
+    {
+      "id": "croker-1825",
+      "type": "book",
+      "title": "Fairy Legends and Traditions of the South of Ireland",
+      "authors": ["T. Crofton Croker"],
+      "publication": "John Murray",
+      "date": "1825"
+    }
+  ]
+}
