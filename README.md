@@ -1,441 +1,189 @@
 # Clurichaun
 
-> *"He'll drink your wine and ride your sheep, and when the sun comes up, he'll sleep."* — Irish saying
+> The clurichaun is a solitary fairy of Irish folklore: a small, red-faced, perpetually drunk male sprite who haunts wine cellars, breweries, and pubs, protecting the household's drink if respected and souring it if mistreated.
 
-[![API Version](https://img.shields.io/badge/api-v1.0.0-blue)]()
-[![Last Updated](https://img.shields.io/badge/updated-2026--01--14-green)]()
-[![Status](https://img.shields.io/badge/status-traditional__folklore-brightgreen)]()
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-documented-blue)
 
 ---
-
 ## Quick Reference
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **ID** | `clurichaun` |
-| **Category** | FAE_FOLKLORE (Irish) |
-| **Classification** | Solitary Fairy / Household Spirit |
-| **First Recorded** | Irish folklore tradition |
-| **Primary Region** | Ireland |
-| **Status** | Traditional folklore |
+| **Category** | FAE_FOLKLORE |
+| **Subcategory** | Solitary fairy / cellar spirit |
+| **First recorded** | 1825 |
+| **Primary range** | Reports cluster in the southern half of Ireland — particularly Munster (Cork, Tipperary, Limerick, Waterford) — but regional variants are recorded across Leinster, parts of Ulster, and west into Connacht |
+| **Status** | documented |
 
 ---
-
 ## Overview
 
-The clurichaun is a fairy from Irish folklore, closely related to the leprechaun and sometimes considered its nighttime form. Small in stature and dressed in red or green, the clurichaun is **always drunk** and associated with wine cellars and drinking.
-
-Unlike the industrious leprechaun cobbler, the clurichaun:
-- **Haunts wine cellars** and drinks copious amounts of wine
-- **Rides sheep and dogs** at night
-- **Causes mischief** when drunk
-- Has a **worse temper** than leprechauns
-
-Clurichauns can attach themselves to households, **protecting the wine cellar** if treated well, but **spoiling wine** and causing chaos if angered. They are known for overturning furniture and general mayhem.
+The clurichaun (Irish clúrachán) is a solitary fairy from Irish folklore, closely related to and sometimes regarded as a variant of the leprechaun. Like the leprechaun he is a small male sprite with a red face, twinkling eyes, and elaborate dress (in T. Crofton Croker's classic 1825 description, a red nightcap, leather apron, light-blue stockings, and silver-buckled shoes). His defining trait, however, is his appetite for drink: the clurichaun is found in wine cellars, brewhouses, and stables, almost invariably drunk, smoking a pipe and singing. Treated kindly and given a share of the household's beer or wine, he becomes a guardian spirit of the cellar, keeping casks from spoiling and barrels from leaking; offended or refused, he turns destructive — souring drink, spoiling barrels, riding sheep and dogs through the night, and generally wrecking the property. Some Irish folklorists, including W. B. Yeats in Fairy and Folk Tales of the Irish Peasantry (1888), regard the clurichaun simply as a leprechaun on a drinking spree at night. Crofton Croker, in his Fairy Legends and Traditions of the South of Ireland (1825), preserves the most influential single tale: 'The Haunted Cellar', set near Carrick-on-Suir in County Tipperary, in which a clurichaun named Naggeneen attaches himself to a household and follows the family even after they try to move away. Regional names — Lurigadawne in Tipperary, His Lan Dun in Donegal, Lurikeen in Kildare, and Logheryman in Ulster — testify to the wide attestation of the figure across Munster, Leinster, and Ulster.
 
 ---
+## Names & Aliases
 
-## Etymology & Names
+| Name | Origin | Meaning |
+|---|---|---|
+| Clúrachán | Irish | Standard Irish-language form |
+| Cluricaun | English (Hiberno-) | Common 19th-century anglicisation |
+| Cluricaune | English | Variant spelling used by T. Crofton Croker |
+| Cluracan | English | Variant spelling |
+| Lurigadawne | Irish (regional) / Tipperary |  |
+| Naggeneen | Hiberno-English / Munster | Pet-name from naigín, 'noggin' (a small drinking measure) |
 
-### Primary Name
-- **Clurichaun** — Possibly from Irish *clúrachán*, etymology uncertain, possibly related to drinking or carousing.
+## Etymology
 
-### Alternative Names
-
-| Name | Language/Region | Meaning |
-|------|-----------------|---------|
-| Clúrachán | Irish Gaelic | Original Irish term |
-| Clobhair-ceann | Irish | Possible etymology |
-| Naggeneen | Some Irish regions | Regional variant |
-
----
-
-## Classification
-
-### Taxonomy
-```
-Category: FAE_FOLKLORE
-├── Type: Irish Fairy
-├── Subtype: Solitary Fairy / Household Spirit
-└── Association: Wine cellars
-```
-
-### Related Phenomena
-
-| Phenomenon | Relationship | Description |
-|------------|--------------|-------------|
-| [Leprechaun](/leprechaun) | Fairy cousin | Some say clurichaun is nighttime form of leprechaun |
-| [Brownie](/brownie) | Similar | Household spirit (but more helpful) |
-| [Irish Fairies](/fairies) | Parent category | Broader Irish fairy folk |
+- **Origin**: Irish: clúrachán, of disputed origin. Some scholars derive it from clobhair-ceann, others from a contraction including luath ('swift') or refer it to Old Irish clúrach. Crofton Croker offers the popular etymology clúir-cheann, 'one-jug-headed'.
+- **Meaning**: Conventionally rendered 'cellar fairy' or 'drunken fairy'.
+- **First use**: Earliest English-language print attestation in T. Crofton Croker's Fairy Legends and Traditions of the South of Ireland (1825); Irish-language oral tradition predates this.
 
 ---
+## Related Phenomena
 
-## Characteristics
+- [Leprechaun](../leprechaun/) — _regional_variant_: Closely related Irish solitary fairy; sometimes considered the daytime, sober counterpart of the clurichaun
+- [Fear Dearg](../fear-dearg/) — _similar_: Irish 'red man' solitary fairy known for grim humour
+- [Brownie](../brownie/) — _similar_: Scottish household spirit who helps a household if treated well, harms it if offended
+- [Domovoi](../domovoi/) — _similar_: Slavic household spirit performing the same protective / punitive role
+- [Púca](../puca/) — _related_: Irish shapeshifting trickster fairy in the same regional folklore
 
-### Physical Description
+---
+## Physical Description
 
-| Attribute | Description |
-|-----------|-------------|
-| **Height** | 0.6 - 0.9 meters (similar to leprechaun) |
-| **Clothing** | Red or green, traditional Irish style |
-| **Appearance** | Always drunk, disheveled |
-| **Face** | Flushed red from drinking |
+- **Height**: 0.15–0.6 meters _(low confidence)_
+- **Coloration**: red face / cheeks, purple-red nose, red or green clothing
+- **Morphology**: A small, dwarfish male sprite, vaguely resembling an elderly Irish countryman in 18th–19th century dress.
 
-### Distinguishing Features
+### Features
 
 | Feature | Description | Frequency |
-|---------|-------------|-----------|
-| Small size | Similar to leprechaun | Always |
-| Always drunk | Perpetually intoxicated | Always |
-| Red face | Flushed from drinking | Common |
-| Disheveled | Messy, unkempt | Common |
+|---|---|---|
+| Red face | Permanently flushed cheeks and a 'purple-red' nose attributed to constant drinking | always |
+| Twinkling eyes | Bright, mischievous eyes; in Crofton Croker's description part of his withered-apple face | common |
+| Red nightcap | Standard headwear in 19th-century Munster descriptions | common |
+| Leather apron and silver-buckled shoes | Specifically described by Crofton Croker (1825): leather apron, light-blue stockings, silver-buckled shoes | common |
+| Pipe and noggin | Frequently shown smoking a pipe and carrying a small drinking vessel (naggin / noggin) | common |
+| Diminutive size | Roughly 6 inches (15 cm) tall in Crofton Croker; in other accounts up to two feet (60 cm) | always |
+
+## Reported Abilities
+
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Cellar guardianship | Protects the household's stock of wine, beer, or spirits from leakage, spoilage, and theft when respected | common | folklore |
+| Drink-spoiling | Sours wine, makes beer go flat, and causes barrels to leak when offended | common | folklore |
+| Domestic mischief | Overturns furniture, rides livestock, and creates poltergeist-style disturbances | common | folklore |
+| Persistent attachment | Once installed in a household, can follow the family if they try to move away (cf. 'The Haunted Cellar') | occasional | folklore |
+
+## Behavior
+
+- **Activity**: nocturnal
+- **Disposition**: variable
+- **Social structure**: solitary
+- **Habitat**: Wine cellars, Brew houses, Public houses (pubs), Stables, Storerooms
+- **Diet**: Whatever beer, wine, whiskey, or stout he can pilfer from his host household
 
 ---
+## Distribution
 
-## Abilities & Behaviors
+Reports cluster in the southern half of Ireland — particularly Munster (Cork, Tipperary, Limerick, Waterford) — but regional variants are recorded across Leinster, parts of Ulster, and west into Connacht.
 
-### Special Abilities
+### Hotspots
 
-| Ability | Description | When |
-|---------|-------------|------|
-| Wine cellar haunting | Inhabits and guards wine cellars | Always |
-| Riding animals | Rides sheep, dogs, other animals at night | Common |
-| Wine spoiling | Can spoil wine if angered | When angered |
-| Mischief making | Overturns furniture, causes chaos | Common |
-| Cellar protection | Protects wine cellar if respected | If respected |
-
-### Typical Behaviors
-
-**At Night** (Primary Activity Time):
-- Drinks wine from cellar stores
-- Rides sheep and dogs wildly
-- Causes household mischief
-- Overturns furniture
-- General carousing and mayhem
-
-**Relationship with Household**:
-- Can be protective if treated well
-- Guards wine from thieves
-- But temperamental and easily angered
-- Worse temper than leprechaun (especially when drunk)
+| Location | Region | Sightings | Peak |
+|---|---|---|---|
+| Carrick-on-Suir | County Tipperary, Ireland |  | Early 19th century |
 
 ---
+## Historical Timeline
 
-## Clurichaun vs. Leprechaun
+| Date | Event | Significance |
+|---|---|---|
+| 1825 | T. Crofton Croker publishes Fairy Legends and Traditions of the South of Ireland, including 'The Haunted Cellar' and the foundational description of the clurichaun | Earliest English-language attestation; the source of all later popular imagery |
+| 1888 | W. B. Yeats includes the clurichaun in Fairy and Folk Tales of the Irish Peasantry, treating him as a leprechaun on a drinking spree | Canonical Yeatsian framing of the figure |
+| 1928 | Lady Augusta Gregory's compilations and James Mooney's earlier Irish folklore essays cement the clurichaun's place in Irish-American fairy lore | Spread of the figure into Irish diaspora popular culture |
+| 1990s | Clurichaun appears as 'Cluracan' in Neil Gaiman's The Sandman comic series | Modern popular-culture revival |
 
-### Are They the Same Fairy?
+## Evidence
 
-**Two Main Theories**:
+### Documentary
 
-#### Theory 1: Nighttime Form of Leprechaun
-- Clurichaun is the leprechaun at night, after work
-- Same fairy, different behavior
-- Day: industrious cobbler (leprechaun)
-- Night: drunk carouser (clurichaun)
-
-#### Theory 2: Separate but Related Fairies
-- Clurichaun is a cousin or relative species
-- Different fairy with different role
-- Similarities due to shared Irish fairy heritage
-
-### Key Differences
-
-| Aspect | Leprechaun | Clurichaun |
-|--------|-----------|------------|
-| **Occupation** | Cobbler (makes shoes) | No work, just drinks |
-| **Activity time** | Day work | Night carousing |
-| **Temperament** | Cunning, mischievous | Drunk, worse temper |
-| **Primary activity** | Making shoes, guarding treasure | Drinking wine, riding animals |
-| **Location** | Workshop, outdoors | Wine cellar |
-| **Treasure** | Pot of gold | Wine stores |
-| **Sobriety** | Sober (mostly) | Always drunk |
-
-### Similarities
-
-Both are:
-- Small Irish fairies
-- Solitary (not trooping fairies)
-- Can attach to households
-- Tricksters
-- Similar size and general appearance
-- Part of Irish fairy tradition
+| Name | Date | Description | Status |
+|---|---|---|---|
+| 'The Haunted Cellar' in Croker's Fairy Legends (1825) | 1825 | Crofton Croker's account of the clurichaun Naggeneen attaching himself to a household near Carrick-on-Suir; the foundational documentary record. | verified |
+| Yeats's Fairy and Folk Tales of the Irish Peasantry (1888) | 1888 | W. B. Yeats's anthology classifies the clurichaun as a solitary fairy and reproduces several Munster narratives. | verified |
 
 ---
+## Theories & Explanations
 
-## Household Interaction
+### Paranormal / Cryptozoological
 
-### If Treated with Respect
+**Distinct nocturnal solitary fairy** _(T. Crofton Croker, Patrick Kennedy)_
 
-**Benefits**:
-- Protects wine cellar from theft
-- Guards wine quality
-- Brings good fortune to wine stores
-- Relatively peaceful coexistence
-- Household guardian role
+In the Crofton Croker tradition, the clurichaun is a distinct fairy specifically associated with cellars and drink, not merely a leprechaun in a bad mood.
 
-**How to Show Respect**:
-- Leave offerings (wine, food)
-- Maintain clean cellar
-- Don't insult or mock
-- Tolerate reasonable drinking
-- Don't try to trap or catch
+**Leprechaun on a drinking spree** _(W. B. Yeats, Some 19th–20th-century folklorists)_
 
-### If Angered or Disrespected
+W. B. Yeats and others argue the clurichaun is the same being as the leprechaun, observed at night and after drinking; the change of name reflects state rather than species.
 
-**Consequences**:
-- Spoils all wine in cellar
-- Overturns furniture throughout house
-- Causes general household chaos
-- Rides animals wildly (frightening them)
-- More destructive than typical fairy mischief
+### Skeptical
 
-**What Angers Them**:
-- Insulting the clurichaun
-- Attempting to capture
-- Disrespecting the wine cellar
-- Cheapness with offerings
-- Mockery or ridicule
+**Folkloric explanation for cellar mishaps** _(Modern folklorists)_
 
----
+Sceptics note that the clurichaun functioned as a culturally available explanation for spoilage, evaporation, theft, and other 'unaccountable' losses in domestic brewing and wine cellars before standardised quality control.
 
-## The Wine Cellar Guardian
+**Personification of household drinking** _(Late 20th-century folklorists)_
 
-### Primary Association: Wine Cellars
+Some folklorists read the figure as a literary personification of drink itself, embodying both its protective domestic role and its destructive excess.
 
-The clurichaun's main domain is the **wine cellar**:
-
-**Activities**:
-- Drinks from wine stores at night
-- Guards cellar from thieves (if respected)
-- Tests wine quality (by drinking it)
-- Can spoil wine through fairy magic if angered
-
-**Protective Role**:
-- Despite drinking the wine, protects it from outsiders
-- Symbiotic relationship with household
-- Better to have drunk clurichaun than wine thieves
-
-### Riding Animals at Night
-
-**Famous Behavior**:
-- Rides sheep through fields
-- Rides dogs around property
-- Rides any available animal
-- Wild, reckless riding
-- Animals exhausted and frightened by morning
-
-**Purpose**: Pure drunken mischief and carousing
-
----
-
-## Temperament & Personality
-
-### Character Traits
-
-- **Always drunk**: Never sober
-- **Carousing**: Loves to party and make noise
-- **Mischievous**: More chaotic than leprechaun
-- **Worse temper**: Especially when drunk (always)
-- **Protective**: Of "his" wine cellar (if treated well)
-- **Chaotic**: Overturns furniture, general mayhem
-
-### Comparison to Other Fairies
-
-**More chaotic than**:
-- Leprechaun (more focused trickster)
-- Brownie (helpful household spirit)
-
-**Similar chaos to**:
-- Poltergeist (when angered)
-- Puck/Robin Goodfellow (mischievous)
-
-**Less malevolent than**:
-- Redcap (murderous goblin)
-- Malicious fairies (actively harmful)
-
----
-
-## Cultural Significance
-
-### Less Famous Than Leprechaun
-
-**Why?**:
-- Leprechaun heavily commercialized (St. Patrick's Day)
-- Clurichaun remains obscure
-- Drinking association less marketable
-
-**Result**:
-- Known mainly to Irish folklore enthusiasts
-- Authentic tradition without commercial distortion
-- Preserved in folklore scholarship
-
-### Irish Folklore Tradition
-
-**Cultural Context**:
-- Part of rich Irish fairy tradition
-- Solitary fairy lore
-- Household spirit beliefs
-- Wine/drinking in Irish culture
-
-**Not Stereotyped**:
-- Unlike leprechaun, not commercialized
-- Retains folkloric authenticity
-- Less known but more genuine
-
----
 
 ## Popular Culture
 
-### Appearances
+**Literature**: T. Crofton Croker, Fairy Legends and Traditions of the South of Ireland (1825); W. B. Yeats, Fairy and Folk Tales of the Irish Peasantry (1888); Lady Wilde, Ancient Legends, Mystic Charms, and Superstitions of Ireland (1887); Katharine Briggs, An Encyclopedia of Fairies (1976); Neil Gaiman, The Sandman comic series
 
-**Literature**:
-- Traditional Irish folklore collections
-- W.B. Yeats fairy tale compilations
-- Some modern fantasy literature
+**Film / TV**: Featured in various Irish folklore documentaries on RTÉ and BBC; Modern fantasy series including occasional clurichaun cameos
 
-**Film/TV**:
-- Occasionally appears in fantasy media
-- Far less common than leprechaun
+**Games**: Dungeons & Dragons (and many other tabletop RPGs) include clurichaun statblocks; Pathfinder Bestiary entries
 
-**Games**:
-- Some fantasy RPGs include clurichauns
-- Usually portrayed as drunk, chaotic creature
+**Music**: Irish folk and rock songs naming the clurichaun (e.g., The Pogues, The Dubliners)
 
-### Cultural Impact
-
-**Minimal commercialization**:
-- No cereal mascots
-- No major film appearances
-- No holiday association
-- Remains authentic folklore
+**Other**: Use as a pub or brewery emblem in Ireland and the Irish-American diaspora; Standard reference in Irish folklore tourist literature
 
 ---
+## Research
 
-## Geographic Distribution
+### Researchers
 
-### Original Folklore
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Thomas Crofton Croker | British Museum (Admiralty); folklorist | Authored the foundational 1825 collection that introduces the clurichaun to print | 1820s–1840s |
+| William Butler Yeats | Poet and folklorist | Re-anthologised and theorised the clurichaun in his 1888 Fairy and Folk Tales | 1880s–1890s |
+| Lady Augusta Gregory | Irish Literary Revival | Recorded County Galway and adjoining variants of solitary-fairy lore | Early 20th century |
+| Katharine Briggs | Folklore Society (UK) | Synthesised Irish solitary-fairy material in An Encyclopedia of Fairies (1976) | 1950s–1980s |
 
-**Primary**: Ireland (throughout)
+### Organizations
 
-**Particularly**: Households with wine cellars
+- [National Folklore Collection (Cnuasach Bhéaloideas Éireann), University College Dublin](https://www.duchas.ie) — Comprehensive archive of Irish-language and Hiberno-English folklore including clurichaun accounts
+- [Folklore Society (UK)](https://folklore-society.com) — Academic society with deep historical engagement in Irish fairy folklore
 
-**Cultural Context**: Authentic Irish fairy tradition
-
----
-
-## Timeline
-
-| Date | Event | Significance |
-|------|-------|--------------|
-| Traditional period | Active folklore | Living Irish fairy tradition |
-| 19th century | Documentation | Folklorists record traditions |
-| Modern era | Remains obscure | Unlike leprechaun, not commercialized |
+The National Folklore Collection's dúchas.ie online archive continues to make Irish folklore questionnaire material — including clurichaun accounts collected during the 1937–38 Schools' Collection — searchable to the public.
 
 ---
+## Sources
 
-## Clurichaun Stories & Folklore
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
 
-### Traditional Tales
 
-**Common Story Pattern**:
-1. Household discovers wine disappearing
-2. Realizes clurichaun has taken up residence
-3. Must decide: respect or attempt removal
-4. Those who respect: cellar protected
-5. Those who anger: wine spoiled, chaos ensues
+## How to Report a Sighting
 
-**Moral**: Better to share wine with clurichaun than anger a fairy
-
-### Typical Encounter
-
-**Morning after clurichaun visit**:
-- Wine level mysteriously lower
-- Sheep exhausted in field
-- Dogs tired and skittish
-- Furniture slightly moved or overturned
-- Cellar door mysteriously open
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
 
 ---
-
-## Relationship with Other Irish Fairies
-
-### Solitary Fairies
-
-Clurichaun is a **solitary fairy**, not a trooping fairy:
-- Works/drinks alone
-- Avoids fairy courts
-- Individual, not social
-- Like leprechaun in this regard
-
-### Related to:
-- **Leprechaun**: Cousin or nighttime form
-- **Far Darrig**: Another Irish solitary fairy
-- **Irish household spirits**: General category
-
----
-
-## Modern Interpretation
-
-### Folklore Preservation
-
-The clurichaun represents **authentic Irish folklore** because:
-- Not commercialized like leprechaun
-- Retains traditional characteristics
-- Known to folklore enthusiasts
-- Not stereotyped or simplified
-
-### Contemporary Understanding
-
-- **Historical**: Explained missing wine, exhausted animals
-- **Cultural**: Part of Irish fairy tradition
-- **Symbolic**: Represents drinking/carousing in Irish culture
-- **Folkloric**: Authentic tradition preserved
-
----
-
-## API Reference
-
-Machine-readable data is available in [`api.json`](api.json).
-
-### Data Access
-
-```javascript
-// Using WyrdnessAPI
-const wyrd = new WyrdnessAPI();
-const clurichaun = await wyrd.getPhenomenon('clurichaun');
-```
-
-### Direct Access
-
-```
-Raw JSON: https://raw.githubusercontent.com/wyrdness/clurichaun/main/api.json
-```
-
----
-
-## Sources & References
-
-See [SOURCES.md](SOURCES.md) for complete bibliography.
-
-### Primary Sources
-
-- Croker, T.C. (1825). *Fairy Legends and Traditions of the South of Ireland*. John Murray.
-- Yeats, W.B. (1888). *Fairy and Folk Tales of the Irish Peasantry*. Walter Scott.
-- Briggs, K. (1976). *A Dictionary of Fairies*. Penguin Books.
-
----
-
 ## License
 
-- **Content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Data**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-<div align="center">
-
-*Part of the [Wyrdness](https://github.com/wyrdness) Paranormal Archive*
-
-[Suggest Correction](../../issues/new?template=correction.yml) • [Full API](api.json)
-
-</div>
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/clurichaun",
     "maintainers": [
       {
@@ -16,111 +16,283 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "clurichaun",
     "name": "Clurichaun",
-    "aliases": [],
-    "category": "|_BROADER_IRISH_FAIRY_FOLK_|",
-    "subcategory": "Solitary Fairy / Household Spirit",
+    "aliases": [
+      { "name": "Clúrachán", "language": "Irish", "meaning": "Standard Irish-language form" },
+      { "name": "Cluricaun", "language": "English (Hiberno-)", "meaning": "Common 19th-century anglicisation" },
+      { "name": "Cluricaune", "language": "English", "meaning": "Variant spelling used by T. Crofton Croker" },
+      { "name": "Cluracan", "language": "English", "meaning": "Variant spelling" },
+      { "name": "Lurigadawne", "language": "Irish (regional)", "region": "Tipperary" },
+      { "name": "Naggeneen", "language": "Hiberno-English", "region": "Munster", "meaning": "Pet-name from naigín, 'noggin' (a small drinking measure)" }
+    ],
+    "category": "FAE_FOLKLORE",
+    "subcategory": "Solitary fairy / cellar spirit",
     "tags": [
-      "folklore",
-      "mythology"
+      "ireland",
+      "celtic-folklore",
+      "fairy",
+      "solitary-fairy",
+      "drink",
+      "cellar-spirit",
+      "trickster"
     ],
     "status": "documented",
     "description": {
-      "summary": "The clurichaun is a fairy from Irish folklore, closely related to the leprechaun and sometimes considered its nighttime form.",
-      "full": "The clurichaun is a fairy from Irish folklore, closely related to the leprechaun and sometimes considered its nighttime form. Small in stature and dressed in red or green, the clurichaun is **always drunk** and associated with wine cellars and drinking. Unlike the industrious leprechaun cobbler, the clurichaun: Clurichauns can attach themselves to households, **protecting the wine cellar** if treated well, but **spoiling wine** and causing chaos if angered. They are known for overturning furniture and general mayhem."
+      "summary": "The clurichaun is a solitary fairy of Irish folklore: a small, red-faced, perpetually drunk male sprite who haunts wine cellars, breweries, and pubs, protecting the household's drink if respected and souring it if mistreated.",
+      "full": "The clurichaun (Irish clúrachán) is a solitary fairy from Irish folklore, closely related to and sometimes regarded as a variant of the leprechaun. Like the leprechaun he is a small male sprite with a red face, twinkling eyes, and elaborate dress (in T. Crofton Croker's classic 1825 description, a red nightcap, leather apron, light-blue stockings, and silver-buckled shoes). His defining trait, however, is his appetite for drink: the clurichaun is found in wine cellars, brewhouses, and stables, almost invariably drunk, smoking a pipe and singing. Treated kindly and given a share of the household's beer or wine, he becomes a guardian spirit of the cellar, keeping casks from spoiling and barrels from leaking; offended or refused, he turns destructive — souring drink, spoiling barrels, riding sheep and dogs through the night, and generally wrecking the property. Some Irish folklorists, including W. B. Yeats in Fairy and Folk Tales of the Irish Peasantry (1888), regard the clurichaun simply as a leprechaun on a drinking spree at night. Crofton Croker, in his Fairy Legends and Traditions of the South of Ireland (1825), preserves the most influential single tale: 'The Haunted Cellar', set near Carrick-on-Suir in County Tipperary, in which a clurichaun named Naggeneen attaches himself to a household and follows the family even after they try to move away. Regional names — Lurigadawne in Tipperary, His Lan Dun in Donegal, Lurikeen in Kildare, and Logheryman in Ulster — testify to the wide attestation of the figure across Munster, Leinster, and Ulster."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Irish: clúrachán, of disputed origin. Some scholars derive it from clobhair-ceann, others from a contraction including luath ('swift') or refer it to Old Irish clúrach. Crofton Croker offers the popular etymology clúir-cheann, 'one-jug-headed'.",
+      "meaning": "Conventionally rendered 'cellar fairy' or 'drunken fairy'.",
+      "first_use": "Earliest English-language print attestation in T. Crofton Croker's Fairy Legends and Traditions of the South of Ireland (1825); Irish-language oral tradition predates this."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "|_BROADER_IRISH_FAIRY_FOLK_|",
-      "type": "Solitary Fairy / Household Spirit",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "FAE_FOLKLORE",
+      "type": "Solitary fairy",
+      "subtype": "Cellar / household spirit",
+      "variant": "Irish (Munster, Leinster, Ulster)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "leprechaun", "name": "Leprechaun", "relationship": "regional_variant", "description": "Closely related Irish solitary fairy; sometimes considered the daytime, sober counterpart of the clurichaun" },
+      { "id": "fear-dearg", "name": "Fear Dearg", "relationship": "similar", "description": "Irish 'red man' solitary fairy known for grim humour" },
+      { "id": "brownie", "name": "Brownie", "relationship": "similar", "description": "Scottish household spirit who helps a household if treated well, harms it if offended" },
+      { "id": "domovoi", "name": "Domovoi", "relationship": "similar", "description": "Slavic household spirit performing the same protective / punitive role" },
+      { "id": "puca", "name": "Púca", "relationship": "related", "description": "Irish shapeshifting trickster fairy in the same regional folklore" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 0.15, "max": 0.6, "unit": "meters", "confidence": "low" },
+      "coloration": ["red face / cheeks", "purple-red nose", "red or green clothing"],
+      "features": [
+        { "feature": "Red face", "description": "Permanently flushed cheeks and a 'purple-red' nose attributed to constant drinking", "frequency": "always" },
+        { "feature": "Twinkling eyes", "description": "Bright, mischievous eyes; in Crofton Croker's description part of his withered-apple face", "frequency": "common" },
+        { "feature": "Red nightcap", "description": "Standard headwear in 19th-century Munster descriptions", "frequency": "common" },
+        { "feature": "Leather apron and silver-buckled shoes", "description": "Specifically described by Crofton Croker (1825): leather apron, light-blue stockings, silver-buckled shoes", "frequency": "common" },
+        { "feature": "Pipe and noggin", "description": "Frequently shown smoking a pipe and carrying a small drinking vessel (naggin / noggin)", "frequency": "common" },
+        { "feature": "Diminutive size", "description": "Roughly 6 inches (15 cm) tall in Crofton Croker; in other accounts up to two feet (60 cm)", "frequency": "always" }
+      ],
+      "morphology": "A small, dwarfish male sprite, vaguely resembling an elderly Irish countryman in 18th–19th century dress."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Cellar guardianship", "description": "Protects the household's stock of wine, beer, or spirits from leakage, spoilage, and theft when respected", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Drink-spoiling", "description": "Sours wine, makes beer go flat, and causes barrels to leak when offended", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Domestic mischief", "description": "Overturns furniture, rides livestock, and creates poltergeist-style disturbances", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Persistent attachment", "description": "Once installed in a household, can follow the family if they try to move away (cf. 'The Haunted Cellar')", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": ["Wine cellars", "Brew houses", "Public houses (pubs)", "Stables", "Storerooms"],
+      "diet": "Whatever beer, wine, whiskey, or stout he can pilfer from his host household",
+      "patterns": [
+        "Most active at night when the household is asleep",
+        "Reveals himself most often to one favoured household member",
+        "Reciprocity: rewards generosity, punishes stinginess",
+        "Strongly territorial about a particular cellar or pub"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Reports cluster in the southern half of Ireland — particularly Munster (Cork, Tipperary, Limerick, Waterford) — but regional variants are recorded across Leinster, parts of Ulster, and west into Connacht.",
+      "continents": ["Europe"],
+      "countries": ["Ireland"],
+      "regions": [
+        "Munster",
+        "Leinster",
+        "Ulster",
+        "Connacht",
+        "Tipperary",
+        "Cork",
+        "Waterford",
+        "Kildare",
+        "Donegal"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Carrick-on-Suir",
+        "location": {
+          "description": "Town in southern Tipperary, setting of T. Crofton Croker's 'The Haunted Cellar'",
+          "country": "Ireland",
+          "region": "County Tipperary",
+          "coordinates": { "latitude": 52.3461, "longitude": -7.4138 }
+        },
+        "peak_period": "Early 19th century",
+        "notes": "Setting of the most famous clurichaun narrative collected by Crofton Croker."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1825",
+        "circa": false,
+        "source": "T. Crofton Croker, Fairy Legends and Traditions of the South of Ireland (1825)"
+      },
+      "peak_activity_periods": [
+        { "period": "1820s–1890s", "description": "Heyday of Irish fairy-tale collection: Crofton Croker, Patrick Kennedy, William Butler Yeats, Lady Wilde, Douglas Hyde" },
+        { "period": "20th century", "description": "Folklore Commission of Ireland (Coimisiún Béaloideasa Éireann, 1935–1971) systematically collects accounts" }
+      ],
+      "seasonal_patterns": "Most active in autumn and winter when households brew, store, and broach wine and beer."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Irish-language oral tradition of solitary fairies, paralleling the leprechaun and far darrig as a single, often male, household-attached fairy distinct from the trooping fairies (sídhe).",
+      "earliest_accounts": "First in print in T. Crofton Croker's Fairy Legends and Traditions of the South of Ireland (1825), and re-anthologised by Yeats in 1888.",
+      "folklore_connections": "Closely related to the leprechaun (especially in Yeats's reading) and to the broader European tradition of household and cellar spirits, including the Scottish brownie and the Slavic domovoi."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1825", "event": "T. Crofton Croker publishes Fairy Legends and Traditions of the South of Ireland, including 'The Haunted Cellar' and the foundational description of the clurichaun", "significance": "Earliest English-language attestation; the source of all later popular imagery", "source": "Croker, T. C. (1825), Fairy Legends and Traditions of the South of Ireland" },
+      { "date": "1888", "event": "W. B. Yeats includes the clurichaun in Fairy and Folk Tales of the Irish Peasantry, treating him as a leprechaun on a drinking spree", "significance": "Canonical Yeatsian framing of the figure", "source": "Yeats, W. B. (1888), Fairy and Folk Tales of the Irish Peasantry" },
+      { "date": "1928", "event": "Lady Augusta Gregory's compilations and James Mooney's earlier Irish folklore essays cement the clurichaun's place in Irish-American fairy lore", "significance": "Spread of the figure into Irish diaspora popular culture", "source": "Various Irish-American folklore publications" },
+      { "date": "1990s", "event": "Clurichaun appears as 'Cluracan' in Neil Gaiman's The Sandman comic series", "significance": "Modern popular-culture revival", "source": "Gaiman, N., The Sandman" }
+    ],
+    "modern_era": "The clurichaun has remained a staple of Irish folklore reference works (Katharine Briggs's An Encyclopedia of Fairies, 1976) and of popular fantasy. In Ireland, regional variants — Lurigadawne in Tipperary, His Lan Dun in Donegal, Lurikeen in Kildare, Logheryman in Ulster — continue to be documented in the National Folklore Collection at University College Dublin. He also appears in modern fantasy novels, role-playing games, and craft-beer branding."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1825", "latest": "Contemporary" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "clurichaun-evidence-croker",
+        "type": "folklore text",
+        "name": "'The Haunted Cellar' in Croker's Fairy Legends (1825)",
+        "date": "1825",
+        "description": "Crofton Croker's account of the clurichaun Naggeneen attaching himself to a household near Carrick-on-Suir; the foundational documentary record.",
+        "status": "verified",
+        "source": "Croker, T. C. (1825), Fairy Legends and Traditions of the South of Ireland"
+      },
+      {
+        "id": "clurichaun-evidence-yeats",
+        "type": "folklore anthology",
+        "name": "Yeats's Fairy and Folk Tales of the Irish Peasantry (1888)",
+        "date": "1888",
+        "description": "W. B. Yeats's anthology classifies the clurichaun as a solitary fairy and reproduces several Munster narratives.",
+        "status": "verified",
+        "source": "Yeats, W. B. (1888), Fairy and Folk Tales of the Irish Peasantry"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Distinct nocturnal solitary fairy",
+        "description": "In the Crofton Croker tradition, the clurichaun is a distinct fairy specifically associated with cellars and drink, not merely a leprechaun in a bad mood.",
+        "proponents": ["T. Crofton Croker", "Patrick Kennedy"],
+        "evidence_cited": ["Distinct regional names and narratives", "Specific household-attachment behaviour"]
+      },
+      {
+        "name": "Leprechaun on a drinking spree",
+        "description": "W. B. Yeats and others argue the clurichaun is the same being as the leprechaun, observed at night and after drinking; the change of name reflects state rather than species.",
+        "proponents": ["W. B. Yeats", "Some 19th–20th-century folklorists"],
+        "evidence_cited": ["Identical physical descriptions", "Overlapping regional vocabulary"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Folkloric explanation for cellar mishaps",
+        "description": "Sceptics note that the clurichaun functioned as a culturally available explanation for spoilage, evaporation, theft, and other 'unaccountable' losses in domestic brewing and wine cellars before standardised quality control.",
+        "proponents": ["Modern folklorists"],
+        "evidence_cited": ["Pattern of clurichaun reports clustering in households that brewed or stored quantities of drink", "Decline of reports as cellars became professionalised"]
+      },
+      {
+        "name": "Personification of household drinking",
+        "description": "Some folklorists read the figure as a literary personification of drink itself, embodying both its protective domestic role and its destructive excess.",
+        "proponents": ["Late 20th-century folklorists"],
+        "evidence_cited": ["Literary handling of the figure in Yeats and Crofton Croker", "Recurrent 'reciprocity' moral of clurichaun stories"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Munster fairy lore",
+        "Irish solitary-fairy tradition",
+        "Anglo-Irish 19th-century antiquarianism"
+      ],
+      "stories": [
+        "'The Haunted Cellar' (Croker, 1825)",
+        "'The Little Shoe' and other Munster cluricaune tales",
+        "Tales of the Lurigadawne of Tipperary"
+      ],
+      "beliefs": "A clurichaun should be neither cheated of his drink nor mocked; given his share, he protects the household's stores."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "T. Crofton Croker, Fairy Legends and Traditions of the South of Ireland (1825)",
+        "W. B. Yeats, Fairy and Folk Tales of the Irish Peasantry (1888)",
+        "Lady Wilde, Ancient Legends, Mystic Charms, and Superstitions of Ireland (1887)",
+        "Katharine Briggs, An Encyclopedia of Fairies (1976)",
+        "Neil Gaiman, The Sandman comic series"
+      ],
+      "film_tv": [
+        "Featured in various Irish folklore documentaries on RTÉ and BBC",
+        "Modern fantasy series including occasional clurichaun cameos"
+      ],
+      "games": [
+        "Dungeons & Dragons (and many other tabletop RPGs) include clurichaun statblocks",
+        "Pathfinder Bestiary entries"
+      ],
+      "music": [
+        "Irish folk and rock songs naming the clurichaun (e.g., The Pogues, The Dubliners)"
+      ],
+      "other": [
+        "Use as a pub or brewery emblem in Ireland and the Irish-American diaspora",
+        "Standard reference in Irish folklore tourist literature"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Thomas Crofton Croker", "affiliation": "British Museum (Admiralty); folklorist", "contribution": "Authored the foundational 1825 collection that introduces the clurichaun to print", "period": "1820s–1840s" },
+      { "name": "William Butler Yeats", "affiliation": "Poet and folklorist", "contribution": "Re-anthologised and theorised the clurichaun in his 1888 Fairy and Folk Tales", "period": "1880s–1890s" },
+      { "name": "Lady Augusta Gregory", "affiliation": "Irish Literary Revival", "contribution": "Recorded County Galway and adjoining variants of solitary-fairy lore", "period": "Early 20th century" },
+      { "name": "Katharine Briggs", "affiliation": "Folklore Society (UK)", "contribution": "Synthesised Irish solitary-fairy material in An Encyclopedia of Fairies (1976)", "period": "1950s–1980s" }
+    ],
+    "organizations": [
+      { "name": "National Folklore Collection (Cnuasach Bhéaloideas Éireann), University College Dublin", "url": "https://www.duchas.ie", "focus": "Comprehensive archive of Irish-language and Hiberno-English folklore including clurichaun accounts" },
+      { "name": "Folklore Society (UK)", "url": "https://folklore-society.com", "focus": "Academic society with deep historical engagement in Irish fairy folklore" }
+    ],
+    "ongoing_studies": "The National Folklore Collection's dúchas.ie online archive continues to make Irish folklore questionnaire material — including clurichaun accounts collected during the 1937–38 Schools' Collection — searchable to the public."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-clurichaun", "type": "website", "title": "Clurichaun", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Clurichaun", "accessed": "2026-05-07" },
+    { "id": "croker-1825", "type": "book", "title": "Fairy Legends and Traditions of the South of Ireland", "authors": ["Thomas Crofton Croker"], "publication": "John Murray, London", "date": "1825" },
+    { "id": "yeats-1888", "type": "book", "title": "Fairy and Folk Tales of the Irish Peasantry", "authors": ["William Butler Yeats"], "publication": "Walter Scott, London", "date": "1888" },
+    { "id": "wilde-1887", "type": "book", "title": "Ancient Legends, Mystic Charms, and Superstitions of Ireland", "authors": ["Lady Francesca Speranza Wilde"], "publication": "Ward and Downey, London", "date": "1887" },
+    { "id": "briggs-1976", "type": "book", "title": "An Encyclopedia of Fairies: Hobgoblins, Brownies, Bogies, and Other Supernatural Creatures", "authors": ["Katharine M. Briggs"], "publication": "Pantheon Books", "date": "1976", "isbn": "978-0394734675" },
+    { "id": "duchas", "type": "archive", "title": "The National Folklore Collection / Cnuasach Bhéaloideas Éireann", "publication": "University College Dublin / dúchas.ie", "url": "https://www.duchas.ie", "accessed": "2026-05-07" }
+  ]
 }
